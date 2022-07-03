@@ -1,7 +1,7 @@
-from rest_framework import serializer
+from rest_framework import serializers
 from.models import link
 
-class LinkSerializer(serializer.ModelSerializer):
+class LinkSerializer(serializers.ModelSerializer):
     class Meta:
         model = link
         fields = "__all__"
