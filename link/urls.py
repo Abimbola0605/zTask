@@ -5,10 +5,7 @@ from .views import (
     PostCreateApi,
     PostDetailApi,
     PostUpdateApi,
-    PostDeleteApi,
-    RetrieveAPI,
-    DestroyAPI
-        
+    PostDeleteApi,      
 )
 
 app_name="link"
